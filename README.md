@@ -46,6 +46,30 @@ A simple Flask application for managing gym-related operations.
 
 
 
+**🐳 Running the Application with Docker**
+
+*Prerequisites*
+
+1. Docker Desktop installed and running
+
+
+            *Build the Docker Image*
+              Bash -  docker build -t flask-gym-app .
+
+            *Run the Container*
+              Bash - docker run -p 5000:5000 flask-gym-app
+
+
+             *Visit: http://localhost:5000*
+
+💡 Note: When prompted to allow Docker access to private/public networks, allow both, especially if testing on a browser.
+
+✅ Running Tests Locally
+
+You can run all unit tests using Pytest:
+
+pytest -v tests/
+
 
 
 **GitHub Actions CI/CD Pipeline**

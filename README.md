@@ -5,7 +5,7 @@ A simple Flask application for managing gym-related operations.
 
 **Running the Application Locally**
 
-Prerequisites: 
+*Prerequisites*: 
 
 1. Python 3.9+
 2. pip
@@ -14,29 +14,32 @@ Prerequisites:
 
 **Clone the repository**
 
-bash - git clone https://github.com/<your-username>/flask-gym-app.git
-bash - cd flask-gym-app
+              *bash - git clone https://github.com/<your-username>/flask-gym-app.git*
+              *bash - cd flask-gym-app*
 
 
 **Set up a virtual environment (optional but recommended)**
 
-bash - python -m venv venv
-bash - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+             *bash - python -m venv venv*
+             *bash - source venv/bin/activate  # On Windows use `venv\Scripts\activate`*
 
 **Install dependencies**
 
-pip install -r requirements.txt
+             *bash - pip install -r requirements.txt*
 
 
 **Run the app**
 
-python app.py
-The app should now be running at: http://localhost:5000
+             *bash - python app.py*
+             The app should now be running at: http://localhost:5000
 
 
 **Running Tests Locally**
 
-pytest -v tests/
+             *bash - pytest -v tests/*
+
+
+
 
 
 

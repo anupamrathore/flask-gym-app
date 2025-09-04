@@ -14,8 +14,9 @@ A simple Flask application for managing gym-related operations.
 
 **Clone the repository**
 
-              *bash - git clone https://github.com/<your-username>/flask-gym-app.git*
-              *bash - cd flask-gym-app*
+              *bash 
+               git clone https://github.com/<your-username>/flask-gym-app.git
+               cd flask-gym-app*
 
 
 **Set up a virtual environment (optional but recommended)**
